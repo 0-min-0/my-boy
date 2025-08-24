@@ -1,0 +1,15 @@
+@import "tailwindcss" layer(base);  /* Síntaxis correcta para v4 */
+
+@layer utilities {
+
+}
+
+@font-face {
+    font-family: 'Yours';
+    src: url('../assets/fonts/yours.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Delius';
+    src: url('../assets/fonts/delius.ttf') format('truetype');
+}
