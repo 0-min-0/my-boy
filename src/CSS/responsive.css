@@ -15,7 +15,7 @@
   font-family: var(--font-yours, sans-serif);
 }
 
-.titulo {
+.titulo h1 {
   font-size: 3.75rem;
   /* 60px */
 }
@@ -29,7 +29,6 @@
 .parrafo {
   font-size: 1.875rem;
   /* 30px */
-  line-height: 1.5;
 }
 
 .imagen-flowers img {
@@ -121,7 +120,7 @@
   .seccion-1 {
     display: flex;
     justify-content: space-between;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     gap: 0rem;
     padding-left: 1rem;
@@ -133,7 +132,7 @@
   }
 
   .titulo {
-    font-size: 1.25rem;
+    font-size: 1.8rem;
   }
 
   .subtitulo {
@@ -141,7 +140,7 @@
   }
 
   .parrafo-1 {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
 
   .imagen-flowers img {
@@ -149,7 +148,7 @@
   }
 
   .seccion-2 {
-    height: 60vh;
+    height: 90vh;
     flex-direction: column;
     padding: 1.5rem;
   }
@@ -165,11 +164,11 @@
   }
 
   .titulo {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .parrafo {
-    font-size: 0.65rem;
+    font-size: 0.8rem;
   }
 
   .imagen-chiguiro {

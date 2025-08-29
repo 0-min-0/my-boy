@@ -4,6 +4,7 @@ import fondo from '../assets/images/squares-bg.png'
 import marco from '../assets/images/marco-fondo.png'
 import chiguiro from '../assets/images/chiguiro.png'
 import wedding from '../assets/images/boda-chiguirito.png'
+import flowers2 from '../assets/images/flowers2.png'
 import { motion, useMotionValue, useTransform, animate, useInView } from 'framer-motion'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -65,7 +66,7 @@ export const Principal = () => {
                     >
                         Mi precioso niño, quise utilizar mi talento creando ésta aplicación
                         para que puedas ver lo mucho que te amo y lo importante que eres para
-                        mí. Sería más normal hacerte una carta o muchos detalles (cosa que 
+                        mí. Sería más normal hacerte una carta o muchos detalles (cosa que
                         disfruto mucho hacer para ti), pero ésta vez quería hacer algo diferente
                         y demostrarte de todas las formas que pueda el gran amor que siento por
                         ti. Que cada vez que entres a ésta página y ojalá sea muchas veces te
@@ -74,14 +75,24 @@ export const Principal = () => {
                     </motion.p>
                 </motion.div>
 
-                <motion.div
-                    className="imagen-flowers"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1.2, delay: 0.8 }}
-                >
-                    <img src={flowers} alt="flowers" className='flowers' />
-                </motion.div>
+                <div>
+                    <motion.div
+                        className="imagen-flowers"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1.2, delay: 0.8 }}
+                    >
+                        <img src={flowers2} alt="flowers" className='flowers' />
+                    </motion.div>
+                    <motion.div
+                        className="imagen-flowers"
+                        initial={{ opacity: 0, scale: 0.8 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 1.2, delay: 0.8 }}
+                    >
+                        <img src={flowers} alt="flowers" className='flowers' />
+                    </motion.div>
+                </div>
             </div>
 
             {/* Segunda sección */}
@@ -92,7 +103,7 @@ export const Principal = () => {
                         <p className="parrafo font-[delius]">
                             Cuando me acerque a ti por primera vez como una amiga
                             no pensé que llegaría a enamorarme de ti tan profundamente
-                            pero estamos aquí juntos, siendo felices y algo que no podría 
+                            pero estamos aquí juntos, siendo felices y algo que no podría
                             negar mi yo del pasado, es que me gustaste desde ese momento
                             en el que empezamos a establecer nuestra amistad. No se como lo
                             pienses tú, pero yo siento que entre tu y yo siempre hubo la
