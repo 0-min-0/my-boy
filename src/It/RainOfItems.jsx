@@ -5,8 +5,8 @@ export default function RainOfItems({
     density = 40,
     fallMin = 6,
     fallMax = 14,
-    sizeMin = 18,
-    sizeMax = 48,
+    sizeMin = 10,
+    sizeMax = 28,
     className = "",
     zIndex = 10,
 }) {

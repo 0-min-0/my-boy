@@ -1,0 +1,214 @@
+.seccion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seccion-1 {
+  height: 100vh;
+  gap: 2.5rem;
+}
+
+.texto {
+  text-align: center;
+  margin-left: 7.5rem;
+  font-family: var(--font-yours, sans-serif);
+}
+
+.titulo {
+  font-size: 3.75rem;
+  /* 60px */
+}
+
+.subtitulo {
+  font-size: 2.25rem;
+  /* 36px */
+  margin-bottom: 0.75rem;
+}
+
+.parrafo {
+  font-size: 1.875rem;
+  /* 30px */
+  line-height: 1.5;
+}
+
+.imagen-flowers img {
+  width: 30rem;
+  /* 480px */
+  height: auto;
+}
+
+.flowers {
+  width: 6rem;
+}
+
+/* Segunda sección */
+.seccion-2 {
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.caja {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem 2.5rem;
+  margin-left: 5rem;
+  border-radius: 0.75rem;
+  position: relative;
+}
+
+.imagen-chiguiro {
+  width: 32rem;
+  height: auto;
+  transform: scaleX(-1);
+  position: absolute;
+  top: -15%;
+  right: -15%;
+}
+
+/* Contador */
+.seccion-3 {
+  padding-top: 2.5rem;
+  background: #fffefd;
+  justify-content: space-around;
+}
+
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contador-titulo {
+  font-size: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  font-family: var(--font-yours, sans-serif);
+}
+
+.contador-numero {
+  font-size: 4.5rem;
+  font-family: var(--font-delius);
+  font-weight: bold;
+  color: #ef7694;
+  letter-spacing: 0.1em;
+}
+
+.contador-texto {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  font-family: var(--font-delius);
+  color: #4b5563;
+}
+
+.imagen-wedding img {
+  width: 40rem;
+  height: auto;
+}
+
+/* 📱 Responsive: hasta 410px */
+@media (max-width: 410px) {
+  .seccion-1 {
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    width: 100%;
+    gap: 0rem;
+    padding-left: 1rem;
+  }
+
+  .texto {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .titulo {
+    font-size: 1.25rem;
+  }
+
+  .subtitulo {
+    font-size: 1rem;
+  }
+
+  .parrafo-1 {
+    font-size: 0.75rem;
+  }
+
+  .imagen-flowers img {
+    width: 100%;
+  }
+
+  .seccion-2 {
+    height: 60vh;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+
+  .contenedor-caja {
+    position: relative;
+  }
+
+  .caja {
+    margin-left: 0;
+    padding: 1rem;
+    text-align: right;
+  }
+
+  .titulo {
+    font-size: 1rem;
+  }
+
+  .parrafo {
+    font-size: 0.65rem;
+  }
+
+  .imagen-chiguiro {
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    width: 7rem;
+    margin-top: 1rem;
+  }
+
+  .seccion-3 {
+    padding: 1rem;
+  }
+
+  .contador {
+    width: 100%;
+    height: 80vh;
+    background-size: contain;
+  }
+
+  .contador-titulo {
+    font-size: 2rem;
+    font-family: 'Yours', sans-serif;
+    margin-bottom: 0;
+  }
+
+  .contador-numero {
+    font-size: 3rem;
+    font-family: 'Delius', sans-serif;
+  }
+
+  .contador-texto {
+    font-size: 1rem;
+    font-family: 'Delius', sans-serif;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .imagen-wedding img {
+    width: 12rem;
+  }
+}
